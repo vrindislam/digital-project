@@ -1,0 +1,42 @@
+.app-wrapper {
+  padding: 30px 5% 0 5%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &-logo {
+    width: 30%;
+  }
+
+  &-navbar {
+    width: 70%;
+
+    &-container {
+      display: flex;
+      justify-content: space-evenly;
+
+      &-link {
+        text-transform: uppercase;
+      }
+
+      &-link a {
+        color: #333333;
+        font-size: 12px;
+      }
+
+      &-link a:hover {
+        border-bottom: 1px solid #333333;
+        border-top: 1px solid #333333;
+      }
+
+      &-link a:focus {
+        border-bottom: 1px solid #333333;
+        border-top: 1px solid #333333;
+      }
+    }
+  }
+
+}

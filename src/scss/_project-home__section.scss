@@ -1,0 +1,87 @@
+.project-home {
+  margin-top: 49px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &-nav-container {
+    width: 30%;
+  }
+
+  &-img-container {
+    position: relative;
+    width: 70%;
+    background-size: cover;
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
+    height: 830px;
+    background-image: url('https://res.cloudinary.com/dv7bzelw6/image/upload/v1618929478/digital-project/digital-project-home_giaasa.jpg');
+
+    &-details {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 222px;
+      height: 71px;
+      background-color: #ffffff;
+    }
+
+    &-details a {
+      color: #333333;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    &-details i {
+      margin-left: 10px;
+    }
+  }
+
+  &-nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    &-heading p {
+      font-size: 64px;
+      color: #BDBDBD;
+      text-transform: uppercase;
+    }
+
+    &-heading p:last-child {
+      font-size: 64px;
+      font-weight: bold;
+      color: #333333;
+      text-transform: uppercase;
+    }
+
+    &-navigation {
+      &-button {
+        background-color: #ffffff;
+        border: 1px solid #f2f2f2;
+        width: 53px;
+        height: 53px;
+
+      }
+
+      &-button:hover {
+        background-color: #F9F9F9;
+      }
+
+      &-button i {
+        color: #333333;
+        font-size: 20px;
+      }
+    }
+
+    &-list {
+
+      &-number {
+        font-size: 24px;
+        color: #BDBDBD;
+      }
+    }
+  }
+}

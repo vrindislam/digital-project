@@ -1,0 +1,11 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  @import "reset";
+  @import "header__section";
+  @import "project-home__section";
+  @import "about__section";
+  @import "main-tasks__section";
+  @import "our-projects__section";
+  @import "contacts__section";
+  @import "footer__section";
+}

@@ -1,0 +1,31 @@
+.main-tasks {
+  margin: 120px 0 62px 0;
+
+  & h2 {
+    font-size: 64px;
+    color: #BDBDBD;
+  }
+
+  &-items-container {
+    display: flex;
+    justify-content: space-between;
+
+    &-item {
+      width: 40%;
+      display: flex;
+      align-items: center;
+
+      & span {
+        font-size: 200px;
+        font-weight: bold;
+        color: #F2F2F2;
+        margin-right: 30px;
+      }
+
+      & p {
+        color: #333333;
+        max-width: 280px;
+      }
+    }
+  }
+}
